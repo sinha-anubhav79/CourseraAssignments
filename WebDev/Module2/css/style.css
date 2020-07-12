@@ -65,14 +65,15 @@ p{
   
 @media (max-width: 991px) and (min-width: 768px) {
     .col-md-6 {
-      float: left;
       grid-column-start: span 6;
     }
+    .col-md-12 {
+        grid-column-start: span 12;
+      }
 }
 
 @media (max-width: 767px) {
     .col-sm-12 {
-      float: left;
       grid-column-start: span 12;
     }
 }
